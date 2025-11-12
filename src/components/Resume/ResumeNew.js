@@ -94,10 +94,6 @@ function ResumeNew() {
                     Fill Form Here
                   </Button>
                 </div>
-
-                <small style={{ display: "block", marginTop: 12, color: "#6c757d" }}>
-                  For quick contact, either open the form in a new tab or fill it inline.
-                </small>
               </Card.Body>
             </Card>
           </Col>
@@ -141,3 +137,4 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
+
