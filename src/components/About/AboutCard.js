@@ -1,5 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
@@ -48,7 +49,32 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          {/* Document buttons - aligned and styled to match the component */}
+          <div style={{ marginTop: 14, display: "flex", gap: 12, flexWrap: "wrap" }}>
+            <Button
+              variant="outline-primary"
+              href="https://drive.google.com/file/d/1q0SsJwchlANbA4PpvE6_Ekk4KwScFX7O/view?usp=drivesdk"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="View Senior Secondary document"
+              style={{ maxWidth: 260 }}
+            >
+              View Senior Secondary Document
+            </Button>
+
+            <Button
+              variant="outline-primary"
+              href="https://drive.google.com/file/d/1cfEBfvuMjGP1toaP8x6IBturE1DuvQcs/view?usp=drivesdk"
+              target="_blank"
+              rel="noreferrer noopener"
+              aria-label="View BCA document"
+              style={{ maxWidth: 260 }}
+            >
+              View BCA Document
+            </Button>
+          </div>
+
+          <p style={{ color: "rgb(155 126 172)", marginTop: 18 }}>
             "Luck opens the door, but hard work strides through it with purpose and determination!"
           </p>
           <footer className="blockquote-footer">Simranjot</footer>
