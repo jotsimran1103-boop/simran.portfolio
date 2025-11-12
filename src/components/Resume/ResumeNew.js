@@ -85,14 +85,14 @@ function ResumeNew() {
                     Open Form (new tab)
                   </Button>
 
-                  <Button
-                    variant="primary"
-                    onClick={() => setShowFormModal(true)}
-                    aria-label="Fill form inline"
-                    style={{ minWidth: 180 }}
-                  >
-                    Fill Form Here
-                  </Button>
+                  // <Button
+                  //   variant="primary"
+                  //   onClick={() => setShowFormModal(true)}
+                  //   aria-label="Fill form inline"
+                  //   style={{ minWidth: 180 }}
+                  // >
+                  //   Fill Form Here
+                  // </Button>
                 </div>
               </Card.Body>
             </Card>
@@ -137,4 +137,5 @@ function ResumeNew() {
 }
 
 export default ResumeNew;
+
 
