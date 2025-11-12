@@ -10,7 +10,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Simranjot Kaur </span>
             from <span className="purple"> Punjab, India.</span>
-            <br /> I am a 1st year student pursuing Master's in Computer Applications at LPU, Punjab.
+            <br /> I am a 1st year student pursuing Master's in Computer Applications at LPU, Punjab. I have done BCA from punjabi university, patiala. 
             <br />
             Additionally, I am currently looking for internships in Software development.
             <br />
@@ -40,3 +40,4 @@ function AboutCard() {
 }
 
 export default AboutCard;
+
