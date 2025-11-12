@@ -28,7 +28,7 @@ function Projects() {
               title="Quiz-App"
               description="The React Quiz Web App is an interactive and time-bound quiz application designed to test users' knowledge. This web application offers an engaging and challenging experience, presenting users with a series of questions within a specified time limit. After completing the quiz, users receive their performance."
               ghLink="https://github.com/jotsimran1103-boop/quiz-app-by-simran"
-              demoLink="#"              
+              demoLink="https://quiz-project-by-simran.netlify.app/"              
             />
           </Col>
 
@@ -39,3 +39,4 @@ function Projects() {
 }
 
 export default Projects;
+
